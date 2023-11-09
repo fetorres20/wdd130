@@ -2,6 +2,7 @@ body {
     /*text-align: center;
     Aligns the text inside the 
     container if there is space.*/
+    margin: 0;
 }
 
 nav, footer {
@@ -11,6 +12,10 @@ nav, footer {
     text-align: center;
   }
 
+nav {
+  padding: 25px;
+}
+
   a:hover {
     background-color: white;
     color: steelblue;
@@ -18,13 +23,15 @@ nav, footer {
   
   a {
     color: white;
-    margin: 40px;
+    margin: 50px;
     font-size: 1.5em;
+    padding: 25px;
   }
 
   h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
   }
   img {
     width: 80%;
@@ -54,7 +61,13 @@ nav, footer {
   background-color: white;
   color: steelblue;
 }
+footer {  
+  background-color: steelblue;
+  color: white;
+}
+
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
